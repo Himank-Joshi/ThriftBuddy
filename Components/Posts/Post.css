@@ -1,0 +1,19 @@
+.postParentDiv{
+  padding-top: 6em;
+  padding-bottom: 1em;
+  margin:0 1rem;
+  background-color: #ebeeef;
+}
+
+.post-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards horizontally */
+  margin: 0 auto; /* Center the container */
+}
+
+.post-card {
+  width: calc(33.33% - 2em); /* Approximately one-third of the container width with margins */
+  margin: 1em;
+  /* Add other styles as needed */
+}
